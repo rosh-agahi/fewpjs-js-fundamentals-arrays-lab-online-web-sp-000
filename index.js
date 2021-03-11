@@ -1,8 +1,17 @@
 // Write your solution here!
 
-pets = ["Milo", "Otis", "Garfield"]
+const append = ["Milo", "Otis", "Garfield"];
+append.push("Odie");
+append;
 
-const append  = pets.push("Odie")
-const prepend = pets.unshift("Moose")
-const removeLast = pets.pop()
-const removeFirst = pets.shift()
+const prepend = ["Milo", "Otis", "Garfield"];
+prepend.unshift("Odie");
+prepend;
+
+const removeLast = ["Milo", "Otis", "Garfield"];
+removeLast.pop(2);
+removeLast;
+
+const removeFirst = ["Milo", "Otis", "Garfield"];
+removeFirst.shift(0);
+removeFirst;
