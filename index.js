@@ -9,9 +9,9 @@ prepend.unshift("Odie");
 prepend;
 
 const removeLast = ["Milo", "Otis", "Garfield"];
-removeLast.pop(2);
+removeLast.pop();
 removeLast;
 
 const removeFirst = ["Milo", "Otis", "Garfield"];
-removeFirst.shift(0);
+removeFirst.shift();
 removeFirst;
