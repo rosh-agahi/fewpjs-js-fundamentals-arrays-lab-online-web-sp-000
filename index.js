@@ -2,7 +2,7 @@
 
 pets = ["Milo", "Otis", "Garfield"]
 
-pets.push("Odie")
-pets.unshift("Moose")
-pets.pop()
-pets.shift()
+const append  = pets.push("Odie")
+const prepend = pets.unshift("Moose")
+const removeLast = pets.pop()
+const removeFirst = pets.shift()
